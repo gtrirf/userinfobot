@@ -5,11 +5,11 @@ dp = Dispatcher()
 
 
 async def startup_answer(bot: Bot):
-    await bot.send_message(5160960485, "bot ishlashni boshladi✅")
+    await bot.send_message('chat id', "bot ishlashni boshladi✅")
 
 
 async def shutdown_answer(bot: Bot):
-    await bot.send_message(5160960485, "bot ishdan to'xtadi❌")
+    await bot.send_message('chat id', "bot ishdan to'xtadi❌")
 
 
 # async def echo(message: types.Message, bot: Bot):
